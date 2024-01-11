@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>forms</title>
+        <style>
+            input{
+                background-color: burlywood;
+                border: none;
+                outline: none;
+                padding: 15px;
+                margin: 20px;
+                border-radius: 0px 100px 0px 100px;
+                /* left top, right top, right bottom, left bottom */
+                color: blueviolet;
+                font-size: 25px;
+            }
+            input::placeholder{
+                color:#fff;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Forms tags </h1>
+
+        </center>
+        <hr>
+
+        <form>
+            <label for="">This is the label</label>
+            <input type="text" placeholder="Account number">
+            <button type="button">This is the button</button>
+
+            <select name="courses" id="courses">
+                <option value="" disabled selected>select course</option>
+                <option value="mern">Mern fullstack</option>
+                <option value="java">java fullstack</option>
+                <option value="python" >python fullstack</option>
+                <option value="dotnet">dotnet</option>
+            </select><br>
+            <br>
+
+            <select name="" id="">
+                <option value="" disabled selected>Order Now</option>
+                <hr>
+                <option value="" disabled>Electronics</option>
+                <optgroup>
+                   
+                    <option value="">Laptap</option>
+                    <option value="">mobiles</option>
+                    <option value="">airpods</option>
+                </optgroup>
+                <br>
+                <hr>
+                <option value="" disabled>Clothing</option>
+                <optgroup>
+                   
+                    <option value="">mens wears</option>
+                    <option value="">womens wears</option>
+                    <option value="">for kids</option>
+                </optgroup>
+                <hr>
+            </select>
+
+        </form>
+
+    </body>
+</html>
